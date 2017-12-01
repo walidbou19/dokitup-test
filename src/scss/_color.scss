@@ -1,0 +1,19 @@
+@mixin _stbui-background($color, $hue: default) {
+  background-color: mat-color($color) !important;
+}
+
+@mixin stbui-theme-color() {
+  @each $name, $color in $stbui-theme-colors {
+
+    .stbui-background-#{$name} {
+      color: mat-contrast($color, 500);
+      @include _stbui-background($color);
+    }
+
+    .stbui-#{$name} {
+      @include _stbui-background($color);
+    }
+  }
+}
+
+@include stbui-theme-color();
