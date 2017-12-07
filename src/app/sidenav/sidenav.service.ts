@@ -15,29 +15,29 @@ export class SidenavService {
 
   constructor() {
     const dashboard = this.addItem('home', 'home', '/home', 1);
-    const materials = this.addItem('bubble_chart', 'bubble_chart', null, 3);
-    this.addSubItem(materials, 'pagination', '/materials/pagination', 3);
-    this.addSubItem(materials, 'datepicker', '/materials/datepicker', 3);
-    this.addSubItem(materials, 'popover', '/materials/popover', 3);
-    this.addSubItem(materials, 'buttons', '/materials/buttons', 1);
-    this.addSubItem(materials, 'cards', '/materials/cards', 2);
-    this.addSubItem(materials, 'lists', '/materials/lists', 3);
-    this.addSubItem(materials, 'menu', '/materials/menu', 3);
-    this.addSubItem(materials, 'slider', '/materials/slider', 3);
-    this.addSubItem(materials, 'tabs', '/materials/tabs', 3);
-    this.addSubItem(materials, 'tooltips', '/materials/tooltips', 3);
-    this.addSubItem(materials, 'dialogs', '/materials/dialogs', 3);
-    this.addSubItem(materials, 'Toast', '/materials/toast', 3);
-    this.addSubItem(materials, 'Snack-Bar', '/materials/snackbar', 3);
-    this.addSubItem(materials, 'icon', '/materials/icon', 3);
+    // const materials = this.addItem('bubble_chart', 'bubble_chart', null, 3);
+    // this.addSubItem(materials, 'pagination', '/materials/pagination', 3);
+    // this.addSubItem(materials, 'datepicker', '/materials/datepicker', 3);
+    // this.addSubItem(materials, 'popover', '/materials/popover', 3);
+    // this.addSubItem(materials, 'buttons', '/materials/buttons', 1);
+    // this.addSubItem(materials, 'cards', '/materials/cards', 2);
+    // this.addSubItem(materials, 'lists', '/materials/lists', 3);
+    // this.addSubItem(materials, 'menu', '/materials/menu', 3);
+    // this.addSubItem(materials, 'slider', '/materials/slider', 3);
+    // this.addSubItem(materials, 'tabs', '/materials/tabs', 3);
+    // this.addSubItem(materials, 'tooltips', '/materials/tooltips', 3);
+    // this.addSubItem(materials, 'dialogs', '/materials/dialogs', 3);
+    // this.addSubItem(materials, 'Toast', '/materials/toast', 3);
+    // this.addSubItem(materials, 'Snack-Bar', '/materials/snackbar', 3);
+    // this.addSubItem(materials, 'icon', '/materials/icon', 3);
 
-    const components = this.addItem('equalizer', 'equalizer', null, 3, '1', '#4CAF50');
-    this.addSubItem(components, 'amap', '/materials/amap', 1);
-    this.addSubItem(components, 'Markdown', '/materials/markdown', 1);
-    this.addSubItem(components, 'chart', '/components/chart', 1);
-    this.addSubItem(components, 'popover', '/materials/popover', 1);
-    this.addSubItem(components, 'calendar', '/materials/calendar', 1);
-    this.addSubItem(components, 'popover', '/materials/popover', 1);
+    // const components = this.addItem('equalizer', 'equalizer', null, 3, '1', '#4CAF50');
+    // this.addSubItem(components, 'amap', '/materials/amap', 1);
+    // this.addSubItem(components, 'Markdown', '/materials/markdown', 1);
+    // this.addSubItem(components, 'chart', '/components/chart', 1);
+    // this.addSubItem(components, 'popover', '/materials/popover', 1);
+    // this.addSubItem(components, 'calendar', '/materials/calendar', 1);
+    // this.addSubItem(components, 'popover', '/materials/popover', 1);
 
     const forms = this.addItem('format_color_text', 'format_color_text', null, 4);
     this.addSubItem(forms, 'elements', '/forms/elements', 1);
@@ -90,9 +90,9 @@ export class SidenavService {
     // this.addSubItem(crm, '商机', '/crm/lead', 1);
     // this.addSubItem(crm, '产品', '/crm/lead', 1);
 
-    const apm = this.addItem('code', 'code', null, 9, 'new', '#3F51B5');
-    this.addSubItem(apm, 'error', '/apm/error', 1);
-    this.addSubItem(apm, 'performance', '/apm/performance', 1);
+    // const apm = this.addItem('code', 'code', null, 9, 'new', '#3F51B5');
+    // this.addSubItem(apm, 'error', '/apm/error', 1);
+    // this.addSubItem(apm, 'performance', '/apm/performance', 1);
 
   }
 

@@ -256,17 +256,6 @@
       "pv": null
     },
     {
-      "id": 24,
-      "name": "Docker",
-      "description": "",
-      "user_id": 1,
-      "create_time": 2147483647,
-      "status_is": "Y",
-      "sort_order": 1,
-      "top_is": "N",
-      "pv": null
-    },
-    {
       "id": 25,
       "name": "nodejs",
       "description": "",
